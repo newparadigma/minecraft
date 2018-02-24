@@ -1,0 +1,37 @@
+summon husk ~ ~1 ~ {
+  "CustomName":"Hricha",
+  "Visible":1,
+  "Attributes":
+  [{"Name":"generic.maxHealth","Base":50},{"Name":"generic.knockbackResistance","Base":1}],
+  "Health":30.0,
+  "HandItems":
+  [
+    {
+      "id":"shield",
+      "Count":1,
+      "Damage":0,
+      "tag":
+      {
+        "display":{"Name":"Panzer Shield","Lore":["Shield look very Hot!"]},
+        "ench":[{"id":70,"lvl":1},{"id":20,"lvl":2},{"id":34,"lvl":3}]
+      }
+    },
+    {
+      "id":"diamond_sword",
+      "Count":1,
+      "Damage":0,
+      "tag":
+      {
+        "ench":[{"id":20,"lvl":2},{"id":20,"lvl":2}]
+      }
+    }
+  ],
+  "HandDropChances":[0.5f,0.0f],
+  "ArmorItems":
+  [
+    {"id":"minecraft:diamond_boots","Count":1},
+    {"id":"minecraft:diamond_leggings","Count":1},
+    {"id":"minecraft:diamond_chestplate","Count":1},
+    {"id":"minecraft:diamond_helmet","Count":1}
+  ]
+}

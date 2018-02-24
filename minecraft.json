@@ -1,0 +1,35 @@
+summon wither_skeleton ~ ~1 ~ {
+  "CustomName":"Jora",
+  "Visible":1,
+  "Attributes":
+  [{"Name":"generic.maxHealth","Base":50},{"Name":"generic.knockbackResistance","Base":1}],
+  "Health":40.0,
+  "HandItems":
+    [
+      {
+        "id":"iron_sword",
+        "Count":1,
+        "Damage":0,
+        "tag":
+          {
+          "display":{"Name":"Jorander","Lore":["Great Jora's sword"]},
+          "ench":[{"id":20,"lvl":2}, {"id":16,"lvl":7}],
+          "Unbreakable":1
+          }
+        },
+        {}
+    ],
+    "HandDropChances":[0.5f,0.0f],
+    "ArmorDropChances":[1.0f,0.0f,0.0f,0.0f],
+    "ArmorItems":
+    [
+      {
+        "id":"minecraft:iron_boots",
+        "Count":1,
+        "Attributes": [{"Name":"generic.movementSpeed","Base":2}],
+      },
+      {"id":"minecraft:iron_leggings","Count":1},
+      {"id":"minecraft:iron_chestplate","Count":1},
+      {"id":"minecraft:iron_helmet","Count":1}
+    ]
+}
